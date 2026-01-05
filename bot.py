@@ -9,8 +9,6 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is not set")
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 logging.basicConfig(level=logging.INFO)
 
