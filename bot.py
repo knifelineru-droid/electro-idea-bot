@@ -1,7 +1,9 @@
 import logging
 import os
 import random
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = Here is the token for bot War lll @War_lll_bot:
+
+5976969017:AAEahV-7FVAD_eKGL5n4xVK8NmJYA_nZBnY
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is not set")
