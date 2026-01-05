@@ -1,7 +1,7 @@
 import logging
 import os
 import random
-TOKEN = 5976969017:AAEahV-7FVAD_eKGL5n4xVK8NmJYA_nZBnY
+TOKEN = os.getenv("BOT_TOKEN")
 
 
 
