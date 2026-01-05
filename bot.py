@@ -3,13 +3,9 @@ import os
 import random
 
 from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes
-import logging
-import os
-import random
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+
 TOKEN = os.getenv("BOT_TOKEN")
-
-
 
 if not TOKEN:
     raise ValueError("BOT_TOKEN is not set")
